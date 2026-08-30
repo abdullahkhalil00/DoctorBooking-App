@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Login from './pages/Login.jsx'
+
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { AdminContext } from './context/adminContext.jsx'
@@ -16,10 +16,9 @@ import AllDoctor from './pages/admin/AllDoctor.jsx'
 import DoctorDashbord from './pages/doctor/DoctorDashbord.jsx'
 import DoctorAppointments from './pages/doctor/DoctorAppointments.jsx'
 import DoctorProfile from './pages/doctor/DoctorProfile.jsx'
+import Login from './pages/login.jsx'
 
-// Doctor Pages imports (Apne path ke hisab se set karein)
-// import DoctorDashboard from './pages/doctor/DoctorDashboard.jsx'
-// import DoctorAppointments from './pages/doctor/DoctorAppointments.jsx'
+
 
 const App = () => {
   const { atoken } = useContext(AdminContext)
