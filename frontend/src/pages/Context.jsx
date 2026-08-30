@@ -23,7 +23,7 @@ const Contact = () => {
           </p>
           <p className='text-gray-500'>
             Tel: (92) 370‑6168427 <br />
-            Email: greatstackdev@gmail.com
+            Email: hafizabdullahpu@@gmail.com
           </p>
           <p className='font-semibold text-lg text-gray-700 mt-2'>CAREERS AT PRESCRIPTO</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
